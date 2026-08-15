@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="./Github_Banner.png" width="100%" alt="Ananda Rokade - Software Engineer">
+<img src="./Github_Banner.png" width="100%" alt="Ananda Rokade - Java Developer | Software Engineer">
 
 <br><br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=850&lines=Software+Engineer;Java+%7C+Data+Structures+%26+Algorithms;Full-Stack+Developer;Data+Analytics+%7C+Power+BI+%7C+SQL;Building+with+Logic%2C+Code+%26+Data">
+<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=800&color=F97316&center=true&vCenter=true&width=850&lines=Java+Developer;Spring+%7C+Spring+Boot;350%2B+DSA+Problems+Solved;Full-Stack+Developer;Data+Analytics+%7C+Power+BI+%7C+SQL" alt="Animated technical profile">
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=Ananda-Rokade&label=PROFILE+VIEWS&color=F97316&style=for-the-badge">
+<img src="https://komarev.com/ghpvc/?username=Ananda-Rokade&label=PROFILE+VIEWS&color=F97316&style=for-the-badge" alt="Profile views">
 
-<img src="https://img.shields.io/github/followers/Ananda-Rokade?style=for-the-badge&color=18181B&labelColor=F97316&label=FOLLOWERS">
+<img src="https://img.shields.io/github/followers/Ananda-Rokade?style=for-the-badge&color=18181B&labelColor=F97316&label=FOLLOWERS" alt="GitHub followers">
 
 </div>
 
@@ -44,25 +44,34 @@ full-stack applications and extracting meaningful insights from data.
 My current focus is becoming a stronger <b>Java-focused Software Engineer</b>
 by combining <b>Java, Spring, DSA, backend development, databases and analytical thinking.</b>
 </p>
+
+---
+
 ## `02` — ENGINEERING STACK
 
 <div align="center">
 
-### ⚡ Core Engineering
+### ☕ Core Engineering
 
-<img src="https://skillicons.dev/icons?i=java,cpp,js,python,html,css" />
+<img src="https://skillicons.dev/icons?i=java,cpp,js,python,html,css" alt="Programming technologies">
 
 <br><br>
 
+### ⚙️ Java & Backend
+
+**Java** • **Spring** • **Spring Boot** • **REST APIs** • **OOP**
+
+<br>
+
 ### 🧠 Problem Solving
 
-**Data Structures** • **Algorithms** • **Problem Solving** • **OOP** • **DBMS**
+**Data Structures** • **Algorithms** • **DSA** • **DBMS**
 
 <br>
 
 ### 🌐 Full-Stack Development
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql" />
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql" alt="Full stack technologies">
 
 <br><br>
 
@@ -74,7 +83,7 @@ by combining <b>Java, Spring, DSA, backend development, databases and analytical
 
 ### 🛠 Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Development tools">
 
 </div>
 
@@ -84,18 +93,20 @@ by combining <b>Java, Spring, DSA, backend development, databases and analytical
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
 ### 🧩 Software Engineering
 
-Building full-stack applications with:
+Building practical applications using:
 
+- Java
+- Spring & Spring Boot
 - React.js
 - Node.js
-- Express.js
-- MongoDB
 - REST APIs
-- Java
+- MongoDB
+- SQL
 
 </td>
 
@@ -105,21 +116,24 @@ Building full-stack applications with:
 
 Working with data to:
 
-- Clean and validate datasets
 - Analyze business patterns
-- Build Power BI dashboards
 - Write SQL queries
+- Validate datasets
+- Build Power BI dashboards
+- Create interactive visualizations
 - Generate actionable insights
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-### 🧠 DSA & Problem Solving
+### 🧠 Problem Solving
 
-**350+ problems solved**
+**350+ DSA Problems Solved**
 
 Focused on:
 
@@ -143,11 +157,12 @@ I focus on:
 
 `Scalable Solutions`
 
-`Continuous Learning`
-
 `Practical Problem Solving`
 
+`Continuous Improvement`
+
 </td>
+
 </tr>
 </table>
 
@@ -191,77 +206,23 @@ Interactive dashboard focused on customer demographics, purchasing patterns, rev
 
 ---
 
-## `05` — EXPERIENCE
-
-### 💻 MERN Stack Intern
-**Cravita Technologies India Private Limited**
-
-Worked on full-stack web applications using the MERN stack, contributing to:
-
-**React.js • Node.js • REST APIs • MongoDB**
-
-- Developed reusable UI components
-- Integrated RESTful APIs
-- Worked with MongoDB
-- Debugged application issues
-- Collaborated with the development team
-- Improved application performance and user experience
-
----
-
-### 📊 Data Analytics Intern
-**Enrichepro Software Pvt. Ltd.**
-
-Worked on data analysis and visualization using:
-
-**Python • SQL • Data Analytics**
-
-- Analyzed **10,000+ records**
-- Identified trends, patterns and meaningful insights
-- Performed data validation and analytical reporting
-- Created data visualizations
-- Supported data-driven decision-making
-- Successfully completed the internship with recognition for performance
-
----
-
-## `06` — PROBLEM SOLVING
+## `05` — GITHUB ACTIVITY
 
 <div align="center">
 
-### 🏆 350+ DSA Problems Solved
+<img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="180" alt="GitHub statistics">
 
-<img src="https://img.shields.io/badge/Java-DSA-F97316?style=for-the-badge&logo=openjdk&logoColor=white" />
-
-<img src="https://img.shields.io/badge/350%2B-Problems%20Solved-18181B?style=for-the-badge" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent" height="180" alt="GitHub streak">
 
 <br><br>
 
-<a href="https://leetcode.com/u/Ananda_187/">
-<img src="https://img.shields.io/badge/LeetCode-Ananda__187-F7F7F7?style=for-the-badge&logo=leetcode&logoColor=black" />
-</a>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ananda-Rokade&theme=github-compact&hide_border=true&area=true" width="95%" alt="GitHub contribution activity">
 
 </div>
 
 ---
 
-## `07` — GITHUB ACTIVITY
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="180" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent" height="180" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ananda-Rokade&theme=github-compact&hide_border=true&area=true" width="95%" />
-
-</div>
-
----
-
-## `08` — ACHIEVEMENTS
+## `06` — ACHIEVEMENTS
 
 <div align="center">
 
@@ -273,54 +234,36 @@ Worked on data analysis and visualization using:
 
 🎯 **Selected for GTT Foundation Program among top students**
 
-💻 **350+ DSA Problems Solved**
+🧠 **350+ DSA Problems Solved**
 
 </div>
 
 ---
 
-## `09` — GITHUB TROPHIES
+## `07` — GITHUB TROPHIES
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ananda-Rokade&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+<img src="https://github-profile-trophy.vercel.app/?username=Ananda-Rokade&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies">
 
 </div>
 
 ---
 
-## `10` — CURRENTLY BUILDING
-
-<div align="center">
-
-| Focus Area | Current Direction |
-|---|---|
-| ☕ Java | Core Java & problem solving |
-| 🧠 DSA | Algorithms & competitive problem solving |
-| 🌐 Full-Stack | MERN & RESTful applications |
-| 🗄️ Databases | SQL, MySQL & MongoDB |
-| 📊 Analytics | Power BI, DAX & Data Analysis |
-
-</div>
-
-> **Learning every day. Building consistently. Solving better problems.**
-
----
-
-## `11` — CONNECT WITH ME
+## `08` — CONNECT WITH ME
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/anandarokade">
-<img src="https://img.shields.io/badge/LinkedIn-Ananda%20Rokade-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-Ananda%20Rokade-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 <a href="https://github.com/Ananda-Rokade">
-<img src="https://img.shields.io/badge/GitHub-Ananda--Rokade-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-Ananda--Rokade-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="mailto:anandabrokade17@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 </div>
@@ -329,7 +272,7 @@ Worked on data analysis and visualization using:
 
 <div align="center">
 
-### `BUILD → BREAK → LEARN → REBUILD → REPEAT`
+### `BUILD → SOLVE → ANALYZE → IMPROVE`
 
 **Thanks for visiting my profile.**
 
