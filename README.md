@@ -97,9 +97,11 @@
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent" height="180" alt="GitHub streak">
 
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ananda-Rokade&theme=github-compact&hide_border=true&area=true" width="95%" alt="GitHub contribution activity">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ananda-Rokade/Ananda-Rokade/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ananda-Rokade/Ananda-Rokade/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ananda-Rokade/Ananda-Rokade/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 </div>
 
