@@ -14,7 +14,6 @@
 <div align="center">
   <p><i>Turning complex problems into elegant, scalable, and secure software solutions.</i></p>
   <img src="https://komarev.com/ghpvc/?username=Ananda-Rokade&label=PROFILE+VIEWS&color=F97316&style=for-the-badge" alt="Profile views">
-  <a href="https://github.com/Ananda-Rokade?tab=followers"><img src="https://img.shields.io/github/followers/Ananda-Rokade?style=for-the-badge&color=18181B&labelColor=F97316&label=FOLLOWERS" alt="GitHub followers"></a>
 </div>
 
 <br>
