@@ -46,28 +46,45 @@
 
 <div align="center">
 
-### ☕ Languages & Core
-**Java** &rarr; **Python** &rarr; **JavaScript** &rarr; **TypeScript**
+### ☕ Languages
+<p><b>Java &rarr; Python &rarr; JavaScript &rarr; TypeScript</b></p>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" />
+</a>
 
-<br>
+<br><br>
 
 ### ⚙️ Backend & Databases
-**Spring** &rarr; **Spring Boot** &rarr; **Node.js** &rarr; **Express.js** &rarr; **MongoDB** &rarr; **MySQL**
+<p><b>Spring &rarr; Spring Boot &rarr; Node.js &rarr; Express.js &rarr; MongoDB &rarr; MySQL</b></p>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,mongodb,mysql&theme=dark" />
+</a>
 
-<br>
+<br><br>
 
 ### 🌐 Frontend
-**React.js** &rarr; **HTML5** &rarr; **CSS3** &rarr; **Tailwind CSS**
+<p><b>React.js &rarr; HTML5 &rarr; CSS3 &rarr; Tailwind CSS</b></p>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark" />
+</a>
+
+<br><br>
+
+### 📊 Data & Business Intelligence
+<p><b>SQL &rarr; Power BI &rarr; DAX &rarr; Pandas &rarr; NumPy &rarr; Excel</b></p>
 
 <br>
 
-### 📊 Data & Business Intelligence
-**SQL** &rarr; **Power BI** &rarr; **DAX** &rarr; **Pandas** &rarr; **NumPy** &rarr; **Excel**
+### 🧠 Core Computer Science
+<p><b>OOP &rarr; Data Structures & Algorithms &rarr; DBMS &rarr; Computer Networks &rarr; OS</b></p>
 
 <br>
 
 ### 🛠️ Tools
-**Git** &rarr; **GitHub** &rarr; **VS Code** &rarr; **Postman** &rarr; **npm** &rarr; **Vite**
+<p><b>Git &rarr; GitHub &rarr; VS Code &rarr; Postman &rarr; npm &rarr; Vite</b></p>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,vite&theme=dark" />
+</a>
 
 </div>
 
