@@ -19,26 +19,19 @@
 
 <br>
 
-<table width="100%" align="center">
-  <tr>
-    <td width="55%">
-      <h2>🚀 About Me</h2>
-      <p>I'm an Engineering student focused on <b>Java, Spring Boot</b>, and <b>System Architecture</b>. I enjoy architecting robust backend systems, cracking algorithmic challenges, and extracting insights from data.</p>
-      <ul>
-        <li>☕ <b>Focus:</b> Backend Architecture, REST APIs, Object-Oriented Design</li>
-        <li>🧠 <b>DSA:</b> 350+ Problems Solved (Arrays, Graphs, DP)</li>
-        <li>🌐 <b>Full-Stack:</b> MERN Ecosystem (React.js, Node.js, MongoDB)</li>
-        <li>📊 <b>Data & BI:</b> SQL, Power BI, DAX</li>
-        <li>🎯 <b>Currently Learning:</b> Advanced System Design & Cloud Architecture</li>
-      </ul>
-      <p><b>✨ Talk to my AI Assistant:</b> <a href="https://ananda-rokade-portfolio.vercel.app/">Ask ROKADE 2.0</a></p>
-    </td>
-    <td width="45%" align="center">
-      <!-- Animated Coding GIF -->
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding Animation" width="100%" style="border-radius: 10px;" />
-    </td>
-  </tr>
-</table>
+## 🚀 About Me
+
+I'm an Engineering student and Java-focused Software Developer interested in
+building practical software and solving problems with code.
+
+- ☕ Focused on **Java, Spring & Spring Boot**
+- 🧠 **350+ DSA problems solved**
+- 🌐 Building applications with the **MERN stack**
+- 📊 Working with **SQL, Power BI & Data Analytics**
+- 🚀 Currently improving my **Java, DSA and software development skills**
+
+I enjoy learning by building projects, solving problems, and continuously
+improving my technical skills.
 
 <br>
 
