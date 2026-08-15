@@ -70,10 +70,10 @@
     <tr>
       <td width="50%" align="center">
         <!-- Colored stats matching your brand (#F97316) -->
-        <img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=transparent&title_color=F97316&icon_color=F97316&text_color=ffffff&bg_color=0d1117" alt="GitHub stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true&title_color=F97316&icon_color=F97316&text_color=ffffff" alt="GitHub stats" height="180" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent&ring=F97316&fire=F97316&currStreakLabel=F97316" alt="GitHub streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent&ring=F97316&fire=F97316&currStreakLabel=F97316" alt="GitHub streak" height="180" />
       </td>
     </tr>
   </table>
@@ -86,12 +86,7 @@
 
 <br>
 
-<h2 align="center">🏆 Achievements & Trophies</h2>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ananda-Rokade&theme=dracula&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" alt="GitHub trophies">
-</div>
-<br>
 <div align="center">
   <p>
     <kbd>🏅 Cummins Scholarship (2025–2026)</kbd>&nbsp;
