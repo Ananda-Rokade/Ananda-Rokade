@@ -18,21 +18,32 @@
 
 ## `01` — WHO AM I?
 
-### Ananda Rokade
-**Software Engineer**
+<h3>Java Developer | Software Engineer</h3>
 
-- 🎓 Engineering student with a strong foundation in **Java & Data Structures**
-- 🧠 **350+ DSA problems solved**
-- 🌐 Full-Stack development using the **MERN ecosystem**
-- 📊 Data Analytics & Business Intelligence using **SQL, Power BI & DAX**
-- 💡 Interested in building practical, scalable and problem-driven software
+<p>
+Engineering student focused on <b>Java, Spring & Spring Boot</b>,
+with strong problem-solving skills in <b>Data Structures & Algorithms</b>.
+</p>
 
-I enjoy turning **problems into structured solutions** — from designing algorithms and backend systems to building interactive applications and extracting meaningful insights from data.
+<ul>
+<li>☕ <b>Java Developer</b> with a strong foundation in Core Java & Object-Oriented Programming</li>
+<li>⚙️ Building backend applications using <b>Spring, Spring Boot & REST APIs</b></li>
+<li>🧠 <b>350+ DSA problems solved</b> with a strong focus on logical problem solving</li>
+<li>🌐 Building full-stack applications using the <b>MERN ecosystem</b></li>
+<li>📊 Working with <b>SQL, Power BI, DAX & Data Analytics</b></li>
+<li>🚀 Interested in building practical, scalable and reliable software</li>
+</ul>
 
-My current focus is becoming a stronger **Software Engineer** by combining **problem-solving, development, databases and analytical thinking**.
+<p>
+I enjoy turning complex problems into structured solutions —
+from designing algorithms and backend systems to building
+full-stack applications and extracting meaningful insights from data.
+</p>
 
----
-
+<p>
+My current focus is becoming a stronger <b>Java-focused Software Engineer</b>
+by combining <b>Java, Spring, DSA, backend development, databases and analytical thinking.</b>
+</p>
 ## `02` — ENGINEERING STACK
 
 <div align="center">
