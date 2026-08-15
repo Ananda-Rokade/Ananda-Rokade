@@ -45,20 +45,30 @@
 <h2 align="center">⚡ Engineering Stack</h2>
 
 <div align="center">
-  <p><b>Languages & Core</b></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cpp,c,python,js,ts&theme=dark" />
-  </a>
-  <br><br>
-  <p><b>Backend & Database</b></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,nodejs,express,mongodb,mysql,redis&theme=dark" />
-  </a>
-  <br><br>
-  <p><b>Frontend & Tools</b></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,git,github,vscode,postman&theme=dark" />
-  </a>
+
+### ☕ Languages & Core
+**Java** &rarr; **Python** &rarr; **JavaScript** &rarr; **TypeScript**
+
+<br>
+
+### ⚙️ Backend & Databases
+**Spring** &rarr; **Spring Boot** &rarr; **Node.js** &rarr; **Express.js** &rarr; **MongoDB** &rarr; **MySQL**
+
+<br>
+
+### 🌐 Frontend
+**React.js** &rarr; **HTML5** &rarr; **CSS3** &rarr; **Tailwind CSS**
+
+<br>
+
+### 📊 Data & Business Intelligence
+**SQL** &rarr; **Power BI** &rarr; **DAX** &rarr; **Pandas** &rarr; **NumPy** &rarr; **Excel**
+
+<br>
+
+### 🛠️ Tools
+**Git** &rarr; **GitHub** &rarr; **VS Code** &rarr; **Postman** &rarr; **npm** &rarr; **Vite**
+
 </div>
 
 <br>
