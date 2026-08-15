@@ -93,19 +93,26 @@
 <h2 align="center">📈 GitHub Activity & Stats</h2>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="180" alt="GitHub statistics">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=transparent" height="180" alt="GitHub streak">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=Ananda-Rokade&show_icons=true&hide_border=true&theme=react&title_color=F97316&icon_color=F97316" height="180" alt="GitHub statistics">
+      </td>
+      <td width="50%" align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ananda-Rokade&hide_border=true&theme=react&ring=F97316&fire=F97316&currStreakLabel=F97316" height="180" alt="GitHub streak">
+      </td>
+    </tr>
+  </table>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ananda-Rokade&theme=github-compact&hide_border=true&area=true" width="95%" alt="GitHub contribution activity">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ananda-Rokade&theme=react-dark&hide_border=true&area=true&color=F97316&line=F97316&point=ffffff" width="95%" alt="GitHub contribution activity">
 
 </div>
 
 <br>
 
+<h2 align="center">🏆 Achievements</h2>
 
 <div align="center">
   <p>
