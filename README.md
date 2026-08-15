@@ -19,19 +19,26 @@
 
 <br>
 
-## 🚀 About Me
-
-I'm an Engineering student and Java-focused Software Developer interested in
-building practical software and solving problems with code.
-
-- ☕ Focused on **Java, Spring & Spring Boot**
-- 🧠 **350+ DSA problems solved**
-- 🌐 Building applications with the **MERN stack**
-- 📊 Working with **SQL, Power BI & Data Analytics**
-- 🚀 Currently improving my **Java, DSA and software development skills**
-
-I enjoy learning by building projects, solving problems, and continuously
-improving my technical skills.
+<table width="100%" align="center">
+  <tr>
+    <td width="60%">
+      <h2>🚀 About Me</h2>
+      <p>I'm an Engineering student and Java-focused Software Developer interested in building practical software and solving problems with code.</p>
+      <ul>
+        <li>☕ Focused on <b>Java, Spring & Spring Boot</b></li>
+        <li>🧠 <b>350+ DSA problems solved</b></li>
+        <li>🌐 Building applications with the <b>MERN stack</b></li>
+        <li>📊 Working with <b>SQL, Power BI & Data Analytics</b></li>
+        <li>🚀 Currently improving my <b>Java, DSA and software development skills</b></li>
+      </ul>
+      <p>I enjoy learning by building projects, solving problems, and continuously improving my technical skills.</p>
+    </td>
+    <td width="40%" align="center">
+      <!-- Animated Coding GIF -->
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding Animation" width="100%" style="border-radius: 10px;" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
