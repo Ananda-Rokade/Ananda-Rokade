@@ -168,45 +168,7 @@ I focus on:
 
 ---
 
-## `04` — FEATURED WORK
-
-### 📊 Comprehensive Sales Dashboard
-
-**Power BI • DAX • Excel**
-
-Interactive Business Intelligence dashboard for analyzing revenue, orders, profitability, customer spending, products, channels and geographic performance.
-
-**Highlights**
-
-- 💰 **$1.2B+ revenue** analyzed
-- 📦 **64K+ orders** analyzed
-- 📈 **37.36% profit margin** analyzed
-- 📊 Interactive KPIs and visualizations
-- 🔎 Trend and profitability analysis
-
-🔗 [View Repository](https://github.com/BROBeliver/Sales_DashBoard)
-
----
-
-### 👥 Customer Behavior Dashboard
-
-**Power BI • DAX • Excel**
-
-Interactive dashboard focused on customer demographics, purchasing patterns, revenue, sales and subscription behavior.
-
-**Highlights**
-
-- 👤 Customer segmentation
-- 📊 Interactive KPI cards
-- 🎛️ Slicers and visual analytics
-- 🔄 Customer retention analysis
-- 🛍️ Product and purchasing analysis
-
-🔗 [View Repository](https://github.com/BROBeliver/Customer-Behavior-Dashboard)
-
----
-
-## `05` — GITHUB ACTIVITY
+## `04` — GITHUB ACTIVITY
 
 <div align="center">
 
@@ -222,7 +184,7 @@ Interactive dashboard focused on customer demographics, purchasing patterns, rev
 
 ---
 
-## `06` — ACHIEVEMENTS
+## `05` — ACHIEVEMENTS
 
 <div align="center">
 
@@ -240,7 +202,7 @@ Interactive dashboard focused on customer demographics, purchasing patterns, rev
 
 ---
 
-## `07` — GITHUB TROPHIES
+## `06` — GITHUB TROPHIES
 
 <div align="center">
 
@@ -250,7 +212,7 @@ Interactive dashboard focused on customer demographics, purchasing patterns, rev
 
 ---
 
-## `08` — CONNECT WITH ME
+## `07` — CONNECT WITH ME
 
 <div align="center">
 
