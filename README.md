@@ -1,22 +1,7 @@
 <div align="center">
-  <table width="100%" style="border: none;">
-    <tr>
-      <td width="40%" align="center">
-        <!-- Coder with Coffee Animation -->
-        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="300" alt="Coder with Coffee"/>
-      </td>
-      <td width="60%" align="center">
-        <h2>⚡ Live Tech Palette ⚡</h2>
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=java,spring,react,mongodb,mysql,nodejs,express,tailwind,git,postman,vscode&perline=6&theme=dark" alt="Tech Palette" />
-        </a>
-        <br><br>
-        <p><i>Building robust solutions with these tools...</i></p>
-      </td>
-    </tr>
-  </table>
-
-  <br>
+  <img src="./animated-banner.svg" width="100%" alt="Animated Tech Banner">
+  
+  <br><br>
 
   <!-- Animated Typing Text -->
   <a href="https://github.com/Ananda-Rokade">
