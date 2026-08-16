@@ -76,6 +76,57 @@
         0% { opacity: 0.4; }
         100% { opacity: 1; }
       }
+
+      /* Developer Lifecycle Styles */
+      .bg-circle {
+        fill: #27272a;
+        stroke: #3f3f46;
+        stroke-width: 2;
+        transition: all 0.3s ease;
+      }
+      
+      .step-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 14px;
+        font-weight: 700;
+        fill: #71717a;
+      }
+
+      /* Sequential Highlighting */
+      .step1 .bg-circle, .step1 .step-text { animation: glow1 8s infinite; }
+      .step2 .bg-circle, .step2 .step-text { animation: glow2 8s infinite; }
+      .step3 .bg-circle, .step3 .step-text { animation: glow3 8s infinite; }
+      .step4 .bg-circle, .step4 .step-text { animation: glow4 8s infinite; }
+
+      @keyframes glow1 { 0%, 20% { fill: #F97316; stroke: #F97316; } 25%, 100% { } }
+      @keyframes glow2 { 0%, 20% { } 25%, 45% { fill: #F97316; stroke: #F97316; } 50%, 100% { } }
+      @keyframes glow3 { 0%, 45% { } 50%, 70% { fill: #F97316; stroke: #F97316; } 75%, 100% { } }
+      @keyframes glow4 { 0%, 70% { } 75%, 95% { fill: #F97316; stroke: #F97316; } 100% { } }
+
+      /* Override text fill when glowing */
+      @keyframes glow1 { 0%, 20% { fill: #F97316; } } /* The circle uses the one above, we need a separate for text if we want... wait, fill applies to both circle and text if we use the same keyframe. */
+      
+      /* Let's refine the keyframes for stroke and fill */
+      @keyframes circleGlow1 { 0%, 20% { stroke: #F97316; } 25%, 100% { stroke: #3f3f46; } }
+      @keyframes textGlow1 { 0%, 20% { fill: #F97316; } 25%, 100% { fill: #71717a; } }
+      
+      @keyframes circleGlow2 { 0%, 20% { stroke: #3f3f46; } 25%, 45% { stroke: #F97316; } 50%, 100% { stroke: #3f3f46; } }
+      @keyframes textGlow2 { 0%, 20% { fill: #71717a; } 25%, 45% { fill: #F97316; } 50%, 100% { fill: #71717a; } }
+      
+      @keyframes circleGlow3 { 0%, 45% { stroke: #3f3f46; } 50%, 70% { stroke: #F97316; } 75%, 100% { stroke: #3f3f46; } }
+      @keyframes textGlow3 { 0%, 45% { fill: #71717a; } 50%, 70% { fill: #F97316; } 75%, 100% { fill: #71717a; } }
+      
+      @keyframes circleGlow4 { 0%, 70% { stroke: #3f3f46; } 75%, 95% { stroke: #F97316; } 100% { stroke: #3f3f46; } }
+      @keyframes textGlow4 { 0%, 70% { fill: #71717a; } 75%, 95% { fill: #F97316; } 100% { fill: #71717a; } }
+
+      .step1 .bg-circle { animation: circleGlow1 6s infinite; }
+      .step1 .step-text { animation: textGlow1 6s infinite; }
+      .step2 .bg-circle { animation: circleGlow2 6s infinite; }
+      .step2 .step-text { animation: textGlow2 6s infinite; }
+      .step3 .bg-circle { animation: circleGlow3 6s infinite; }
+      .step3 .step-text { animation: textGlow3 6s infinite; }
+      .step4 .bg-circle { animation: circleGlow4 6s infinite; }
+      .step4 .step-text { animation: textGlow4 6s infinite; }
     </style>
   </defs>
 
@@ -96,41 +147,45 @@
     </text>
   </g>
 
-  <!-- Center Graphic: Laptop and Coffee -->
-  <g transform="translate(320, 70)">
-    <!-- Desk line -->
-    <line x1="-80" y1="65" x2="230" y2="65" stroke="#27272a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center Graphic: Developer Lifecycle (Wake -> Code -> Coffee -> Sleep) -->
+  <g transform="translate(180, 75)">
     
-    <!-- Laptop -->
-    <!-- Screen -->
-    <rect x="0" y="0" width="100" height="60" rx="4" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
-    <!-- Base -->
-    <path d="M -15 60 L 115 60 Q 120 60 118 65 L -12 65 Q -15 60 -15 60" fill="#a1a1aa" />
-    
-    <!-- Code on Screen -->
-    <rect x="10" y="10" width="30" height="4" rx="2" fill="#f43f5e" class="code-line" style="animation-delay: 0.1s" />
-    <rect x="45" y="10" width="40" height="4" rx="2" fill="#10b981" class="code-line" style="animation-delay: 0.2s" />
-    
-    <rect x="15" y="20" width="50" height="4" rx="2" fill="#38bdf8" class="code-line" style="animation-delay: 0.3s" />
-    
-    <rect x="15" y="30" width="20" height="4" rx="2" fill="#fbbf24" class="code-line" style="animation-delay: 0.4s" />
-    <rect x="40" y="30" width="45" height="4" rx="2" fill="#F97316" class="code-line" style="animation-delay: 0.5s" />
-    
-    <rect x="10" y="40" width="60" height="4" rx="2" fill="#a855f7" class="code-line" style="animation-delay: 0.6s" />
-    
-    <!-- Coffee Mug -->
-    <g transform="translate(130, 35)">
-      <!-- Mug body -->
-      <rect x="0" y="0" width="25" height="30" rx="3" fill="#F97316" />
-      <!-- Handle -->
-      <path d="M 25 5 Q 35 5 35 15 Q 35 25 25 25" fill="none" stroke="#F97316" stroke-width="4" />
-      <!-- Coffee label/stripe -->
-      <rect x="0" y="15" width="25" height="5" fill="#ea580c" />
-      
-      <!-- Steam -->
-      <path d="M 5 -5 Q 0 -15 10 -20" class="steam" />
-      <path d="M 15 -2 Q 25 -10 12 -18" class="steam" style="animation-delay: 0.5s" />
-      <path d="M 20 -8 Q 15 -18 22 -22" class="steam" style="animation-delay: 1s" />
+    <!-- Connecting Line -->
+    <line x1="40" y1="20" x2="400" y2="20" stroke="#27272a" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Scene 1: Wake Up (Bed) -->
+    <g class="step1" transform="translate(0, 0)">
+      <circle cx="20" cy="20" r="35" class="bg-circle" />
+      <text x="20" y="28" font-size="24" text-anchor="middle">🛌</text>
+      <text x="20" y="70" class="step-text" text-anchor="middle">WAKE</text>
     </g>
+
+    <text x="95" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
+
+    <!-- Scene 2: Code (Laptop) -->
+    <g class="step2" transform="translate(140, 0)">
+      <circle cx="20" cy="20" r="35" class="bg-circle" />
+      <text x="20" y="28" font-size="24" text-anchor="middle">💻</text>
+      <text x="20" y="70" class="step-text" text-anchor="middle">CODE</text>
+    </g>
+
+    <text x="235" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
+
+    <!-- Scene 3: Coffee (Mug) -->
+    <g class="step3" transform="translate(280, 0)">
+      <circle cx="20" cy="20" r="35" class="bg-circle" />
+      <text x="20" y="28" font-size="24" text-anchor="middle">☕</text>
+      <text x="20" y="70" class="step-text" text-anchor="middle">COFFEE</text>
+    </g>
+
+    <text x="375" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
+
+    <!-- Scene 4: Sleep (Zzz) -->
+    <g class="step4" transform="translate(420, 0)">
+      <circle cx="20" cy="20" r="35" class="bg-circle" />
+      <text x="20" y="28" font-size="24" text-anchor="middle">😴</text>
+      <text x="20" y="70" class="step-text" text-anchor="middle">SLEEP</text>
+    </g>
+
   </g>
 </svg>
