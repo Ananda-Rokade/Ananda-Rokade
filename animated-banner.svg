@@ -1,191 +1,176 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#09090b" />
-      <stop offset="100%" stop-color="#18181b" />
-    </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F97316" />
-      <stop offset="100%" stop-color="#f59e0b" />
-    </linearGradient>
-    
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;display=swap');
       
-      .bg-rect {
-        fill: url(#bg);
-        stroke: #27272a;
-        stroke-width: 2;
+      /* Day to Night Sky Transition */
+      .sky { animation: skyColor 15s infinite alternate ease-in-out; }
+      @keyframes skyColor {
+        0%, 20% { fill: #38bdf8; } /* Day */
+        40%, 60% { fill: #f59e0b; } /* Sunset */
+        80%, 100% { fill: #0f172a; } /* Night */
       }
       
+      /* Sun Animation */
+      .sun { animation: sunMove 15s infinite alternate ease-in-out; }
+      @keyframes sunMove {
+        0%, 20% { transform: translate(150px, 40px); opacity: 1; }
+        40%, 60% { transform: translate(150px, 150px); opacity: 0.8; }
+        80%, 100% { transform: translate(150px, 200px); opacity: 0; }
+      }
+      
+      /* Moon Animation */
+      .moon { animation: moonMove 15s infinite alternate ease-in-out; }
+      @keyframes moonMove {
+        0%, 60% { transform: translate(600px, 200px); opacity: 0; }
+        80%, 100% { transform: translate(600px, 50px); opacity: 1; }
+      }
+      
+      /* Stars */
+      .star { animation: starTwinkle 15s infinite alternate ease-in-out; }
+      @keyframes starTwinkle {
+        0%, 60% { opacity: 0; }
+        80%, 100% { opacity: 0.8; }
+      }
+      
+      /* Screen Glow at Night */
+      .screen-glow { animation: screenNight 15s infinite alternate ease-in-out; }
+      @keyframes screenNight {
+        0%, 60% { opacity: 0; }
+        80%, 100% { opacity: 0.3; }
+      }
+      
+      /* Coffee Steam */
+      .steam { animation: steamRise 3s infinite ease-in-out; }
+      @keyframes steamRise {
+        0% { transform: translateY(0) scale(1); opacity: 0; }
+        50% { opacity: 0.6; }
+        100% { transform: translateY(-15px) scale(1.5); opacity: 0; }
+      }
+      
+      /* Background Tech Marquee */
       .track {
-        font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
-        font-size: 28px;
+        font-family: 'Fira Code', monospace;
+        font-size: 32px;
         font-weight: 700;
-        fill: #3f3f46;
         white-space: nowrap;
+        fill: rgba(255, 255, 255, 0.15);
+        animation: scrollLeft 20s linear infinite;
       }
-      
-      .highlight {
-        fill: #F97316;
-      }
-      
-      .highlight-blue {
-        fill: #38bdf8;
-      }
-      
-      /* Scrolling Animation */
-      .scroll-left {
-        animation: scrollL 20s linear infinite;
-      }
-      
-      .scroll-right {
-        animation: scrollR 25s linear infinite;
-      }
-      
-      @keyframes scrollL {
+      @keyframes scrollLeft {
         0% { transform: translateX(800px); }
         100% { transform: translateX(-1500px); }
       }
-      
-      @keyframes scrollR {
-        0% { transform: translateX(-1500px); }
-        100% { transform: translateX(800px); }
-      }
-      
-      /* Coffee Steam Animation */
-      .steam {
-        stroke: #a1a1aa;
-        stroke-width: 2.5;
-        stroke-linecap: round;
-        fill: none;
-        animation: rise 2s infinite ease-in-out alternate;
-      }
-      
-      @keyframes rise {
-        0% { transform: translateY(0) scale(1); opacity: 0.3; }
-        100% { transform: translateY(-8px) scale(1.1); opacity: 0; }
-      }
-      
-      /* Typing Animation (Code lines) */
-      .code-line {
-        animation: pulse 1s infinite alternate;
-      }
-      
-      @keyframes pulse {
-        0% { opacity: 0.4; }
-        100% { opacity: 1; }
-      }
 
-      /* Developer Lifecycle Styles */
-      .bg-circle {
-        fill: #27272a;
-        stroke: #3f3f46;
-        stroke-width: 2;
-        transition: all 0.3s ease;
-      }
+      /* Code Typing cursor */
+      .cursor { animation: blink 1s infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
       
-      .step-text {
-        font-family: 'Fira Code', monospace;
-        font-size: 14px;
-        font-weight: 700;
-        fill: #71717a;
-      }
-
-      /* Sequential Highlighting */
-      .step1 .bg-circle, .step1 .step-text { animation: glow1 8s infinite; }
-      .step2 .bg-circle, .step2 .step-text { animation: glow2 8s infinite; }
-      .step3 .bg-circle, .step3 .step-text { animation: glow3 8s infinite; }
-      .step4 .bg-circle, .step4 .step-text { animation: glow4 8s infinite; }
-
-      @keyframes glow1 { 0%, 20% { fill: #F97316; stroke: #F97316; } 25%, 100% { } }
-      @keyframes glow2 { 0%, 20% { } 25%, 45% { fill: #F97316; stroke: #F97316; } 50%, 100% { } }
-      @keyframes glow3 { 0%, 45% { } 50%, 70% { fill: #F97316; stroke: #F97316; } 75%, 100% { } }
-      @keyframes glow4 { 0%, 70% { } 75%, 95% { fill: #F97316; stroke: #F97316; } 100% { } }
-
-      /* Override text fill when glowing */
-      @keyframes glow1 { 0%, 20% { fill: #F97316; } } /* The circle uses the one above, we need a separate for text if we want... wait, fill applies to both circle and text if we use the same keyframe. */
-      
-      /* Let's refine the keyframes for stroke and fill */
-      @keyframes circleGlow1 { 0%, 20% { stroke: #F97316; } 25%, 100% { stroke: #3f3f46; } }
-      @keyframes textGlow1 { 0%, 20% { fill: #F97316; } 25%, 100% { fill: #71717a; } }
-      
-      @keyframes circleGlow2 { 0%, 20% { stroke: #3f3f46; } 25%, 45% { stroke: #F97316; } 50%, 100% { stroke: #3f3f46; } }
-      @keyframes textGlow2 { 0%, 20% { fill: #71717a; } 25%, 45% { fill: #F97316; } 50%, 100% { fill: #71717a; } }
-      
-      @keyframes circleGlow3 { 0%, 45% { stroke: #3f3f46; } 50%, 70% { stroke: #F97316; } 75%, 100% { stroke: #3f3f46; } }
-      @keyframes textGlow3 { 0%, 45% { fill: #71717a; } 50%, 70% { fill: #F97316; } 75%, 100% { fill: #71717a; } }
-      
-      @keyframes circleGlow4 { 0%, 70% { stroke: #3f3f46; } 75%, 95% { stroke: #F97316; } 100% { stroke: #3f3f46; } }
-      @keyframes textGlow4 { 0%, 70% { fill: #71717a; } 75%, 95% { fill: #F97316; } 100% { fill: #71717a; } }
-
-      .step1 .bg-circle { animation: circleGlow1 6s infinite; }
-      .step1 .step-text { animation: textGlow1 6s infinite; }
-      .step2 .bg-circle { animation: circleGlow2 6s infinite; }
-      .step2 .step-text { animation: textGlow2 6s infinite; }
-      .step3 .bg-circle { animation: circleGlow3 6s infinite; }
-      .step3 .step-text { animation: textGlow3 6s infinite; }
-      .step4 .bg-circle { animation: circleGlow4 6s infinite; }
-      .step4 .step-text { animation: textGlow4 6s infinite; }
+      .code { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; }
     </style>
+    
+    <linearGradient id="laptopBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e4e4e7" />
+      <stop offset="100%" stop-color="#a1a1aa" />
+    </linearGradient>
+    
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect class="bg-rect" width="100%" height="100%" rx="15" />
+  <!-- Sky Background -->
+  <rect width="800" height="250" class="sky" rx="10" />
 
-  <!-- Top Marquee -->
-  <g transform="translate(0, 50)">
-    <text class="track scroll-left" y="0">
-      <tspan class="highlight">JAVA</tspan> • SPRING BOOT • <tspan class="highlight">DSA</tspan> • MERN STACK • POWER BI • SQL • <tspan class="highlight">JAVA</tspan> • SPRING BOOT • <tspan class="highlight">DSA</tspan> • MERN STACK
-    </text>
+  <!-- Stars -->
+  <g class="star" fill="#ffffff">
+    <circle cx="100" cy="40" r="1.5" />
+    <circle cx="250" cy="80" r="1" />
+    <circle cx="450" cy="30" r="2" />
+    <circle cx="700" cy="90" r="1.5" />
+    <circle cx="350" cy="110" r="1" />
+    <circle cx="550" cy="60" r="1" />
+    <circle cx="750" cy="40" r="2" />
   </g>
 
-  <!-- Bottom Marquee -->
-  <g transform="translate(0, 175)">
-    <text class="track scroll-right" y="0">
-      SYSTEM ARCHITECTURE • <tspan class="highlight-blue">REST APIs</tspan> • DATA ANALYTICS • MICROSERVICES • <tspan class="highlight-blue">REST APIs</tspan> • DATA ANALYTICS
-    </text>
+  <!-- Sun -->
+  <circle class="sun" r="28" fill="#fef08a" filter="drop-shadow(0 0 15px #fef08a)" />
+
+  <!-- Moon (Crescent) -->
+  <path class="moon" d="M 0,-20 A 20,20 0 1,0 20,0 A 16,16 0 1,1 0,-20" fill="#f8fafc" filter="drop-shadow(0 0 8px #f8fafc)" />
+
+  <!-- Scrolling Background Text -->
+  <g transform="translate(0, 110)">
+    <text class="track" y="0">JAVA • SPRING BOOT • MICROSERVICES • DSA • REACT • MONGODB • SQL • JAVA • SPRING BOOT</text>
   </g>
 
-  <!-- Center Graphic: Developer Lifecycle (Wake -> Code -> Coffee -> Sleep) -->
-  <g transform="translate(180, 75)">
+  <!-- Desk Surface -->
+  <path d="M 0 170 L 800 170 L 800 250 L 0 250 Z" fill="url(#deskGrad)" />
+  <path d="M 0 170 L 800 170 L 800 175 L 0 175 Z" fill="#334155" />
+
+  <!-- Plant / Decor (Left) -->
+  <g transform="translate(140, 115)">
+    <!-- Shadow -->
+    <ellipse cx="20" cy="55" rx="20" ry="4" fill="#020617" opacity="0.5" />
+    <!-- Pot -->
+    <path d="M 10 55 L 30 55 L 35 25 L 5 25 Z" fill="#475569" />
+    <!-- Leaves -->
+    <path d="M 20 25 Q -5 10 10 -15 Q 25 5 20 25" fill="#10b981" />
+    <path d="M 20 25 Q 45 10 30 -15 Q 15 5 20 25" fill="#059669" />
+    <path d="M 20 25 Q 20 -5 20 -25 Q 35 0 20 25" fill="#34d399" />
+  </g>
+
+  <!-- Realistic Laptop (Center) -->
+  <g transform="translate(280, 70)">
+    <!-- Laptop Shadow -->
+    <ellipse cx="120" cy="110" rx="130" ry="15" fill="#020617" opacity="0.6" />
     
-    <!-- Connecting Line -->
-    <line x1="40" y1="20" x2="400" y2="20" stroke="#27272a" stroke-width="4" stroke-linecap="round"/>
-
-    <!-- Scene 1: Wake Up (Bed) -->
-    <g class="step1" transform="translate(0, 0)">
-      <circle cx="20" cy="20" r="35" class="bg-circle" />
-      <text x="20" y="28" font-size="24" text-anchor="middle">🛌</text>
-      <text x="20" y="70" class="step-text" text-anchor="middle">WAKE</text>
+    <!-- Screen Lid -->
+    <rect x="0" y="0" width="240" height="150" rx="8" fill="#18181b" stroke="#3f3f46" stroke-width="4" />
+    
+    <!-- Screen Content (IDE) -->
+    <rect x="4" y="4" width="232" height="142" rx="4" fill="#09090b" />
+    <!-- IDE Header -->
+    <rect x="4" y="4" width="232" height="12" fill="#27272a" rx="4" />
+    <circle cx="12" cy="10" r="3" fill="#ef4444" />
+    <circle cx="22" cy="10" r="3" fill="#eab308" />
+    <circle cx="32" cy="10" r="3" fill="#22c55e" />
+    
+    <!-- IDE Code Lines -->
+    <g transform="translate(12, 35)">
+      <text y="0" class="code" fill="#f43f5e">while <tspan fill="#d4d4d8">(alive)</tspan> <tspan fill="#38bdf8">{</tspan></text>
+      <text y="20" class="code" fill="#10b981" dx="15">eat<tspan fill="#d4d4d8">();</tspan></text>
+      <text y="40" class="code" fill="#F97316" dx="15">code<tspan fill="#d4d4d8">();</tspan></text>
+      <text y="60" class="code" fill="#a855f7" dx="15">sleep<tspan fill="#d4d4d8">();</tspan></text>
+      <text y="80" class="code" fill="#38bdf8">}</text>
+      <rect x="15" y="70" width="6" height="12" fill="#d4d4d8" class="cursor" />
     </g>
 
-    <text x="95" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
+    <!-- Dynamic Glow from Screen (Night mode) -->
+    <rect x="0" y="0" width="240" height="150" rx="8" fill="#0ea5e9" class="screen-glow" style="mix-blend-mode: overlay;" />
+    
+    <!-- Laptop Base -->
+    <path d="M -30 150 L 270 150 Q 280 150 275 158 L -35 158 Q -40 150 -30 150 Z" fill="url(#laptopBody)" />
+    <!-- Trackpad indent -->
+    <rect x="90" y="152" width="60" height="4" rx="2" fill="#71717a" />
+  </g>
 
-    <!-- Scene 2: Code (Laptop) -->
-    <g class="step2" transform="translate(140, 0)">
-      <circle cx="20" cy="20" r="35" class="bg-circle" />
-      <text x="20" y="28" font-size="24" text-anchor="middle">💻</text>
-      <text x="20" y="70" class="step-text" text-anchor="middle">CODE</text>
-    </g>
-
-    <text x="235" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
-
-    <!-- Scene 3: Coffee (Mug) -->
-    <g class="step3" transform="translate(280, 0)">
-      <circle cx="20" cy="20" r="35" class="bg-circle" />
-      <text x="20" y="28" font-size="24" text-anchor="middle">☕</text>
-      <text x="20" y="70" class="step-text" text-anchor="middle">COFFEE</text>
-    </g>
-
-    <text x="375" y="27" font-size="20" fill="#52525b" font-weight="bold">→</text>
-
-    <!-- Scene 4: Sleep (Zzz) -->
-    <g class="step4" transform="translate(420, 0)">
-      <circle cx="20" cy="20" r="35" class="bg-circle" />
-      <text x="20" y="28" font-size="24" text-anchor="middle">😴</text>
-      <text x="20" y="70" class="step-text" text-anchor="middle">SLEEP</text>
-    </g>
-
+  <!-- Realistic Coffee Mug (Right) -->
+  <g transform="translate(560, 115)">
+    <!-- Shadow -->
+    <ellipse cx="20" cy="55" rx="25" ry="6" fill="#020617" opacity="0.6" />
+    <!-- Mug Body -->
+    <path d="M 5 0 L 35 0 C 40 55 35 55 25 55 L 15 55 C 5 55 0 55 5 0 Z" fill="#F97316" />
+    <!-- Mug Lip -->
+    <ellipse cx="20" cy="0" rx="15" ry="5" fill="#ea580c" />
+    <!-- Coffee Liquid Inside -->
+    <ellipse cx="20" cy="1" rx="12" ry="3" fill="#451a03" /> 
+    <!-- Handle -->
+    <path d="M 34 10 C 55 10 55 40 33 40" fill="none" stroke="#ea580c" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Animated Steam -->
+    <path d="M 15 -5 Q 10 -15 20 -25" class="steam" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" />
+    <path d="M 25 -2 Q 30 -10 20 -20" class="steam" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" style="animation-delay: 1.5s;" />
   </g>
 </svg>
